@@ -39,39 +39,6 @@ group :development, :test do
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
-
-  #Upgrading activejob to version 4.2.11 
-  gem "activejob", ">= 4.2.11"
-
-  #Upgrading rack to version 1.6.11
-  gem "rack", ">= 1.6.11"
-
-  #Upgrading ffi to version 1.9.24 
-  gem "ffi", ">= 1.9.24"
-
-  #Upgrading sprockets to version 3.7.2
-  gem "sprockets", ">= 3.7.2"
-
-  #Upgrading loofah to version 2.2.3 
-  gem "loofah", ">= 2.2.3"
-
-  #Upgrading nokogiri to version 1.8.5
-  gem "nokogiri", ">= 1.8.5"
-
-  #Upgrading rails-html-sanitizer to version 1.0.4
-  gem "rails-html-sanitizer", ">= 1.0.4"
-
-  #Upgrading activemodel to version 4.2.5.1 
-  gem "activemodel", ">= 4.2.5.1"
-
-  #Upgrading actionpack to version 4.2.5.2
-  gem "actionpack", ">= 4.2.5.2"
-
-  #Upgrade actionview to version 4.2.11.1
-  gem "actionview", ">= 4.2.11.1"
-
-  #Upgrade activerecord to version 4.2.7.1
-  gem "activerecord", ">= 4.2.7.1"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
