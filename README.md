@@ -10,7 +10,7 @@ Rechercher le fichier `config/initializers/paydunya.rb` et mettez à jour vos cl
 Si vous ne possédez pas encore de clés d'API, rendez-vous sur [https://paydunya.com/integration-setups](https://paydunya.com/integration-setups) pour créer une application de test et générer vos clés d'API.
 
 
-# **Important message for Upgrading module version like that in below** 
+# **Important message for Upgrading module version like that** 
 
 ## Upgrading activejob to version 4.2.11 
     gem "activejob", ">= 4.2.11"
@@ -39,8 +39,8 @@ Si vous ne possédez pas encore de clés d'API, rendez-vous sur [https://payduny
 ## Upgrading actionpack to version 4.2.5.2
     gem "actionpack", ">= 4.2.5.2"
 
-##Upgrade actionview to version 4.2.11.1
+## Upgrade actionview to version 4.2.11.1
     gem "actionview", ">= 4.2.11.1"
 
-##Upgrade activerecord to version 4.2.7.1
+## Upgrade activerecord to version 4.2.7.1
     gem "activerecord", ">= 4.2.7.1"
