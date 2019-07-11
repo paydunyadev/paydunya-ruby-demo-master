@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+<h1>Listing carts</h1>
+
+<table>
+  <tr>
+    <th>Product name</th>
+    <th>Quantity</th>
+    <th>Price</th>
+    <th>Total Price</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @carts.each do |cart| %>
+  <tr>
+    <td><%= cart.product_name %></td>
+    <td><%= cart.quantity %></td>
+    <td><%= cart.price %></td>
+    <td><%= cart.total_price %></td>
+    <td><%= link_to 'Show', cart %></td>
+    <td><%= link_to 'Edit', edit_cart_path(cart) %></td>
+    <td><%= link_to 'Destroy', cart, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Cart', new_cart_path %>
+<br/><br/>
+<% if @carts.size > 0 %>
+  <%= link_to 'Redirect Checkout', checkout_path, :data => { :confirm => "You are about to checkout. Continue?"} %>
+  <%= form_for(:checkout, :url => { :action => "request_charge" }) do |f| %>
+
+  <div class="field">
+    <%= f.label :account_alias %><br />
+    <%= f.text_field :account_alias %>
+  </div>
+  <div class="actions">
+    <%= f.submit "Onsite Payment" %>
+  </div>
+<% end %>
+<% end %>

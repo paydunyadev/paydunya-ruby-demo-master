@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+<h1>Enter Confirmation Token</h1>
+
+  <%= form_for(:checkout, :url => { :action => "perform_charge" }) do |f| %>
+
+  <div class="field">
+    <%= f.label :confirm_token %><br />
+    <%= f.text_field :confirm_token %>
+    <%= f.hidden_field :opr_token, :value => @token %>
+  </div>
+  <div class="actions">
+    <%= f.submit "Confirm Charge" %>
+  </div>
+<% end %>
