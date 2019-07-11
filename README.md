@@ -13,34 +13,34 @@ Si vous ne possédez pas encore de clés d'API, rendez-vous sur [https://payduny
 # **Important message for Upgrading module version like that in below** 
 
 ## Upgrading activejob to version 4.2.11 
-    _gem "activejob", ">= 4.2.11"_
+    gem "activejob", ">= 4.2.11"
 
 ## Upgrading rack to version 1.6.11
-    _gem "rack", ">= 1.6.11"_
+    gem "rack", ">= 1.6.11"
 
 ## Upgrading ffi to version 1.9.24 
-    _gem "ffi", ">= 1.9.24"_
+    gem "ffi", ">= 1.9.24"
 
 ## Upgrading sprockets to version 3.7.2
-    _gem "sprockets", ">= 3.7.2"_
+    gem "sprockets", ">= 3.7.2"
 
 ## Upgrading loofah to version 2.2.3 
-    _gem "loofah", ">= 2.2.3"_
+    gem "loofah", ">= 2.2.3"
 
 ## Upgrading nokogiri to version 1.8.5
-    _gem "nokogiri", ">= 1.8.5"_
+    gem "nokogiri", ">= 1.8.5"
 
 ## Upgrading rails-html-sanitizer to version 1.0.4
-    _gem "rails-html-sanitizer", ">= 1.0.4"_
+    gem "rails-html-sanitizer", ">= 1.0.4"
 
 ## Upgrading activemodel to version 4.2.5.1 
-    _gem "activemodel", ">= 4.2.5.1"_
+    gem "activemodel", ">= 4.2.5.1"
 
 ## Upgrading actionpack to version 4.2.5.2
-    _gem "actionpack", ">= 4.2.5.2"_
+    gem "actionpack", ">= 4.2.5.2"
 
 ##Upgrade actionview to version 4.2.11.1
-    _gem "actionview", ">= 4.2.11.1"_
+    gem "actionview", ">= 4.2.11.1"
 
 ##Upgrade activerecord to version 4.2.7.1
-    _gem "activerecord", ">= 4.2.7.1"_
+    gem "activerecord", ">= 4.2.7.1"
